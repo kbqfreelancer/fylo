@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --color-Very-Dark-Blue: hsl(243, 87%, 12%);
+    --color-Desaturated-Blue: hsl(238, 22%, 44%);
+    --color-Bright-Blue: hsl(224, 93%, 58%);
+    --color-Moderate-Cyan: hsl(170, 45%, 43%);
+    --color-Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --color-Light-Gray: hsl(0, 0%, 75%);
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.navigation ul a {
+    text-decoration: none;
+    color: var(--color-Desaturated-Blue);
+    font-size: 18px;
+}
+
+.secure-location {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secure-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.secure-image {
+    flex: 1;
+}
+
+
+
+
+
+
+
+.secure-info h2 {
+    color: var(--color-Very-Dark-Blue);
+    font-size: 45px;
+    line-height: 1.3;
+}
+
+.secure-info p {
+    color: var(--color-Light-Gray);
+    font-size: 21px;
+}
+
+
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+form input {
+    padding: 10px;
+    color: var(--color-Light-Gray);
+    border-radius: 5px;
+    border: 1px solid var(--color-Very-Dark-Blue);
+}
+
+form button {
+    border: none;
+    background-color: var(--color-Bright-Blue);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.secure-image {
+    max-height: auto;
+    max-width: 100%;
+}
+
+.secure-image img {
+    height: auto;
+    width: 100%;
+}
+
+
+.curve {
+    margin-bottom: -20px;
+}
+
+.curve-image {
+    margin-top: 100px;
+    position: relative;
+}
+
+.curve-image img {
+    height: auto;
+    width: 100%;
+}
+
+.secure-location2 {
+    background-color: var(--color-Light-Grayish-Blue);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secure-info2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.secure-image2 {
+    flex: 1;
+}
+
+.secure-image2 {
+    max-height: auto;
+    max-width: 100%;
+}
+
+.secure-image2 img {
+    height: auto;
+    width: 100%;
+}
+
+.secure-info2 h2 {
+    color: var(--color-Very-Dark-Blue);
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+.secure-info2 p {
+    color: var(--color-Light-Gray);
+    font-size: 19px;
+}
+
+.bts button {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    color: var(--color-Moderate-Cyan);
+}
+
+.line {
+    height: 1px;
+    width: 23%;
+    background-color: var(--color-Moderate-Cyan);
+    margin-top: 5px;
+}
+
+.mini-card {
+    height: auto;
+    width: 60%;
+    background-color: white;
+    box-shadow: 2px 2px 10px var(--color-Light-Gray);
+    border-radius: 10px;
+    margin: 60px 0;
+    padding: 30px;
+}
+
+.mini-card p {
+    font-size: 16px;
+}
+
+.avater {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.avater-image {
+    height: 35px;
+    width: 35px;
+    background-image: url(/images/avatar-testimonial.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+
+.name h5 {
+    color: var(--color-Very-Dark-Blue);
+    padding-top: 4px;
+}
+
+.name p {
+    font-size: 10px;
+}
+
+.get-access {
+    background-color: var(--color-Desaturated-Blue);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.access {
+    flex: 1;
+    padding-top: 20px;
+}
+
+.access h3 {
+    color: var(--color-Light-Grayish-Blue);
+    font-size: 30px;
+}
+
+.access p {
+    color: var(--color-Light-Gray);
+    padding-top: 15px;
+}
+
+.get-started {
+    flex: 1;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.get-started input {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: var(--color-Light-Grayish-Blue);
+    color: var(--color-Light-Gray);
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.get-started button {
+    border: none;
+    background-color: var(--color-Bright-Blue);
+    color: var(--color-Light-Grayish-Blue);
+    padding: 10px;
+    width: 30%;
+}
+
+.footer {
+    background-color: var(--color-Very-Dark-Blue);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logo2 {
+    height: auto;
+    width: 70%;
+    filter: invert(50%);
+}
+
+.logo2 img {
+    height: auto;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phone-image {
+    height: auto;
+    width: 7%;
+}
+
+.phone-image img {
+    height: auto;
+    width: 100%;
+}
+
+.contact p {
+    color: var(--color-Light-Gray);
+    font-size: 10px;
+}
+
+.send-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-image {
+    height: auto;
+    width: 7%;
+}
+
+.email-image img {
+    height: auto;
+    width: 100%;
+}
+
+.send-email ul {
+    list-style: none;
+}
+
+.send-email ul li a {
+    color: var(--color-Light-Gray);
+    text-decoration: none;
+    font-size: 10px;
+}
+
+
+.navigation-list1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    list-style: none;
+}
+
+.nav-list1 a {
+    color: var(--color-Light-Gray);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.navigation-list2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    list-style: none;
+}
+
+.nav-list2 a {
+    color: var(--color-Light-Gray);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* MEDIA QUERIES */
+
+@media (width <= 900px) {
+    .secure-location,
+    .secure-location2{
+        flex-direction: column;
+    }
+
+    .secure-info,
+    .secure-info2{
+        order: 1;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .get-access{
+        flex-direction: column;
+    }
+
+    .get-started, .get-started button{
+        width: 100%;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .bts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mini-card{
+        width: 100%;
+    }
+}
